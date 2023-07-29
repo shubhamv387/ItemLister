@@ -13,7 +13,7 @@
     <title>Item Lister</title>
   </head>
   <body>
-    <header id="main-header" class="bg-success text-white p-4 mb-3">
+    <header id="main-header" class="bg-success p-4 mb-3">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -34,8 +34,18 @@
       <div id="main" class="card card-body">
         <h2 class="title">Add Items</h2>
         <form id="addForm" class="form-inline mb-3">
-          <input type="text" class="form-control mr-2" id="item" />
-          <input type="text" class="form-control mr-2" id="description" />
+          <input
+            type="text"
+            placeholder="Add a new item..."
+            class="form-control mr-2"
+            id="item"
+          />
+          <input
+            type="text"
+            placeholder="Add Description..."
+            class="form-control mr-2 my-2"
+            id="description"
+          />
           <input type="submit" class="btn btn-dark" value="Submit" />
         </form>
         <h2 class="title">Items</h2>
